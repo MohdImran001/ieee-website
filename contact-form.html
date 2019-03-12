@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./public/contact-form/style.css">
+    <link rel="stylesheet" href="./public/style.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./public/ieee_logo.png" alt="ieee_logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact-form.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.ieee.org">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="fb_icon"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="insta_icon"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/ieee_jhsb" id="twitter_icon"><i class="fab fa-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+        </nav>
+    <div class="main">
+        <form name="ContactForm" class="contact-form" action="https://formspree.io/imrancrazy200@gmail.com" method="POST">
+            <div class="form__group">
+                <p class="error" id="error">Error</p>
+            </div>
+            <div class="form__group">
+                <input type="text" id="name" class="form__control" name="name" placeholder="Name">
+            </div>
+            <div class="form__group">
+                <input type="text" id="email" class="form__control" name="email" placeholder="Email">
+            </div>
+            <div class="form__group">
+                <input type="text" id="phone" class="form__control" name="phone" maxlength="10" placeholder="Phone Number">
+            </div>
+            <div class="form__group">
+                <textarea class="form__control" id="message" name="message" rows="5" cols="16"  placeholder="Enter Your Message..."></textarea>
+            </div>
+            <div class="form__group">
+                <button type="submit" id="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="./public/contact-form/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

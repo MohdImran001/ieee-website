@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    background: url('./contact-form/bg.png') center center fixed no-repeat;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+
+#fb_icon:hover {
+    color: #3b5998;
+    font-size: 23px;
+}
+#insta_icon:hover {
+    color: #fb3958;
+    font-size: 23px;
+}
+#twitter_icon:hover {
+    color: #1da1f2;
+    font-size: 23px;
+}
