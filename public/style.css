@@ -17,7 +17,6 @@ body {
     font-size: 20px;
 }
 
-
 #fb_icon:hover {
     color: #3b5998;
     font-size: 23px;
@@ -29,4 +28,14 @@ body {
 #twitter_icon:hover {
     color: #1da1f2;
     font-size: 23px;
+}
+
+/* About us CSS*/
+
+.card-header button {
+    font-size: 23px;
+}
+
+.card-body {
+    font-family: 'Raleway', sans-serif; 
 }
