@@ -1,7 +1,9 @@
 
 body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    background: url('./contact-form/bg.png') center center fixed no-repeat;
+    /*background: url('./contact-form/bg.png') center center fixed no-repeat;
+    */
+    background-color: #100e17;
 }
 
 .navbar {
@@ -38,4 +40,67 @@ body {
 
 .card-body {
     font-family: 'Raleway', sans-serif; 
+}
+
+.wie__image {
+    position: relative;
+    widows: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wie__h1 {
+    z-index: 2;
+    position: absolute;
+    font-size: 120px;
+    border: 5px solid #fff;
+    color: #fff;
+    padding: 20px;
+}
+
+.wie__h {
+    font-size: 50px;
+}
+
+.wie__card:hover .card-title i{
+    color: #2faadd;
+}
+
+@media(max-width: 1000px) {
+    .wie__h1 {
+        font-size: 70px;
+    }
+    .wie__h {
+        font-size: 30px;
+    }
+    .wie__card {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px) {
+    .wie__h1 {
+        font-size: 40px;
+    }
+    .wie__h {
+        font-size: 20px;
+    }
+}
+@media(max-width: 420px) {
+    .wie__h1 {
+        font-size: 30px;
+    }
+    .wie__h {
+        font-size: 10px;
+    }
+}
+@media (max-width:750px) and (min-width:560) {
+
+    .wie__card_title {
+        
+    }
+    .wie__card_text {
+
+    }
 }
