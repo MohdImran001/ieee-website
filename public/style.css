@@ -1,9 +1,18 @@
 
+html {
+    height: 100%;
+    box-sizing:border-box;
+}
+
 body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     /*background: url('./contact-form/bg.png') center center fixed no-repeat;
     */
     background-color: #100e17;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 
 .navbar {
@@ -68,6 +77,31 @@ body {
     color: #2faadd;
 }
 
+.team_tag_1 {
+    color: #fff;
+    margin: 20px 0 20px 0;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.team {
+    margin: 0 auto;
+}
+
+.social_icons a {
+    margin: 5px;
+    color: black;
+}
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
 @media(max-width: 1000px) {
     .wie__h1 {
         font-size: 70px;
@@ -75,7 +109,7 @@ body {
     .wie__h {
         font-size: 30px;
     }
-    .wie__card {
+    .wie__card, .team_teachers {
         margin-bottom: 20px;
     }
 }
